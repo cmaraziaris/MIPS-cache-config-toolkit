@@ -1,0 +1,44 @@
+------------------------------------------------------
+Memory:  8
+Associativity:  1  Block size:  32  Num of sets:  64
+Associativity:  1  Block size:  64  Num of sets:  32
+
+Associativity:  2  Block size:  16  Num of sets:  64
+Associativity:  2  Block size:  32  Num of sets:  32
+Associativity:  2  Block size:  64  Num of sets:  16
+
+Associativity:  4  Block size:  8  Num of sets:  64
+Associativity:  4  Block size:  16  Num of sets:  32
+Associativity:  4  Block size:  32  Num of sets:  16
+Associativity:  4  Block size:  64  Num of sets:  8
+
+Associativity:  8  Block size:  4  Num of sets:  64
+Associativity:  8  Block size:  8  Num of sets:  32
+Associativity:  8  Block size:  16  Num of sets:  16
+Associativity:  8  Block size:  32  Num of sets:  8
+Associativity:  8  Block size:  64  Num of sets:  4
+------------------------------------------------------
+Memory:  16
+Associativity:  1  Block size:  64  Num of sets:  64
+
+Associativity:  2  Block size:  32  Num of sets:  64
+Associativity:  2  Block size:  64  Num of sets:  32
+
+Associativity:  4  Block size:  16  Num of sets:  64
+Associativity:  4  Block size:  32  Num of sets:  32
+Associativity:  4  Block size:  64  Num of sets:  16
+
+Associativity:  8  Block size:  8  Num of sets:  64
+Associativity:  8  Block size:  16  Num of sets:  32
+Associativity:  8  Block size:  32  Num of sets:  16
+Associativity:  8  Block size:  64  Num of sets:  8
+------------------------------------------------------
+Memory:  32
+Associativity:  2  Block size:  64  Num of sets:  64
+
+Associativity:  4  Block size:  32  Num of sets:  64
+Associativity:  4  Block size:  64  Num of sets:  32
+
+Associativity:  8  Block size:  16  Num of sets:  64
+Associativity:  8  Block size:  32  Num of sets:  32
+Associativity:  8  Block size:  64  Num of sets:  16
