@@ -14,6 +14,7 @@ main:
  
   addi $t0, $zero, 0
   addi $s0, $zero, 8192
+  sll $s0, $s0, 2
   la $s1, w
 
 Loop:

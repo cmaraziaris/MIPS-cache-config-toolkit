@@ -1,0 +1,18 @@
+
+data cache check algorithm:
+
+BLOCK SIZE 8
+
+
+
+run: data_cache_size816.s
+
+if misses are 1024:
+  size = 8K
+
+else
+  size = 16K
+    end
+
+
+
