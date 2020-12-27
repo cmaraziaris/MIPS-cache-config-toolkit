@@ -10,7 +10,7 @@ loop:
 
 cont:
 
-.org    0x800230FC
+.org    0x80023FF8
   j loop
   addi $s0, $s0, -1
 
