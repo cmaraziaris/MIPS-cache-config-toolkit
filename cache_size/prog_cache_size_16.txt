@@ -1,0 +1,23 @@
+program cache check algorithm:
+
+BLOCK SIZE 16
+
+
+
+run: prog_cache_size816.s
+
+if misses are 513:
+  size = 8KB
+
+else
+
+  run: prog_cache_size1632.s
+
+  if misses are 1025:
+    size = 16KB
+    end
+
+  else
+    size = 32KB
+    end
+
