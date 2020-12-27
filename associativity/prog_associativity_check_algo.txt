@@ -1,0 +1,26 @@
+data assosiativity check algorithm:
+
+run: prog_assos12.s
+
+if hits are 5:
+  associativity = 1
+  end
+
+else
+  run: prog_assos24.s
+  
+  if hits are 7:
+    associativity = 2
+    end
+
+  else
+
+    run: prog_assos48.s
+
+    if hits are 11:
+      associativity = 4
+      end
+
+    else
+      associativity = 8
+      end
