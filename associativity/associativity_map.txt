@@ -1,0 +1,17 @@
+Program Cache Associativity
+---------------------------
+Degree   -   Cache Misses
+--------------------------
+1 - 67
+2 - 63
+4 - 59
+8 - 11
+
+Data Cache Associativity
+---------------------------
+Degree   -   Cache Misses
+--------------------------
+1 - ?
+2 - ?
+4 - ?
+8 - ?

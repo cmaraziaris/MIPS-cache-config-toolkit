@@ -1,0 +1,10 @@
+
+Data/Prog Cache Block Size
+-------------------------------
+Size (Words)  -   Cache Misses
+-------------------------------
+4W  - 16
+8W  - 8
+16W - 4
+32W - 2
+64W - 1
