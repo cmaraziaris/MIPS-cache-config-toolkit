@@ -21,7 +21,7 @@ loop32k:
   jal loop_twice
   nop
 
-au_revoir:
+end:
 
   addi $v0, $zero, 10
   syscall

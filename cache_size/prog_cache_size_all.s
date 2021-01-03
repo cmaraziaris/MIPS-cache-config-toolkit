@@ -1,10 +1,17 @@
 
-.org    0x80020000  
+.org    0x80020000
+.text
+
 main:
+
   j loop16k
+
 end_loop_16k:
+
   j loop32k
+
 end_loop_32k:
+
   addi $v0, $zero, 10
   syscall
 

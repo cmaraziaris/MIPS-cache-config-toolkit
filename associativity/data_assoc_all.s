@@ -1,12 +1,11 @@
 
 .org    0x80020000  
 .text
-.globl main
 
 main:
 
-la $s5, 0x10000000
-la $s6, 0x01000000
+  la $s5, 0x10000000
+  la $s6, 0x01000000
 
 loop2:
 
@@ -26,7 +25,7 @@ loop8:
   jal loop_twice
   nop
 
-au_revoir:
+end:
 
   addi $v0, $zero, 10
   syscall

@@ -1,14 +1,13 @@
-# working
+# Load 64 continuous words from memory.
 
 .org  0x10000000
 .data
 
-w: .word 1
+w: .word 1  # 1st word out of 64.
 
 
 .org    0x80020000  
 .text
-.globl main
 
 main:
 
@@ -21,7 +20,7 @@ loop:
 
   lw $t5, 0($s1)
 
-  addi $s1, $s1, 4
+  addi $s1, $s1, 4  # $s1 points to the next word.
   addi $s0, $s0, -1
   j loop
 

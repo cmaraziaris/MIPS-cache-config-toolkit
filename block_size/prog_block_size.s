@@ -1,8 +1,7 @@
-# working
+# Execute 63 instructions, stored sequentialy in the text segment.
 
 .org    0x80020000  
 .text
-.globl main
 
 main:
 
@@ -67,10 +66,7 @@ main:
   addi $t0, $zero, 59
   addi $t0, $zero, 60
   addi $t0, $zero, 61
-#  addi $t0, $zero, 62
-#  addi $t0, $zero, 63
-#  addi $t0, $zero, 64
 
-End:
+end:
   addi $v0, $zero, 10
   syscall
