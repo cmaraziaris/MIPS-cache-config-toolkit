@@ -2,7 +2,7 @@ Program Cache Size
 
 Block Size : 4
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 6149
 16 - F
@@ -10,7 +10,7 @@ Size   -   Cache Misses
 
 Block Size : 8
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 3077
 16 - 2564
@@ -18,7 +18,7 @@ Size   -   Cache Misses
 
 Block Size : 16
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 1541
 16 - 1284
@@ -26,7 +26,7 @@ Size   -   Cache Misses
 
 Block Size : 32
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 773
 16 - 644
@@ -34,7 +34,7 @@ Size   -   Cache Misses
 
 Block Size : 64
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 389
 16 - 324
@@ -45,7 +45,7 @@ Size   -   Cache Misses
 Data Cache Size
 Block Size : 4
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 6144
 16 - F
@@ -53,7 +53,7 @@ Size   -   Cache Misses
 
 Block Size : 8
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 3072
 16 - 2048
@@ -61,7 +61,7 @@ Size   -   Cache Misses
 
 Block Size : 16
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 1536
 16 - 1024
@@ -69,7 +69,7 @@ Size   -   Cache Misses
 
 Block Size : 32
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 768
 16 - 512
@@ -77,7 +77,7 @@ Size   -   Cache Misses
 
 Block Size : 64
 ---------------------------
-Size   -   Cache Misses
+Cache Size   -   Cache Misses
 --------------------------
 8  - 384
 16 - 256
