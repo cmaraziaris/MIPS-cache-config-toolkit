@@ -1,3 +1,18 @@
+# Load the words residing in the following data mem addresses: 
+# 0x10000000
+# 0x11000000
+#
+# 0x12000000
+# 0x13000000
+#
+# 0x14000000
+# 0x15000000
+# 0x16000000
+# 0x17000000
+#
+# The increment by 0x01000000 is done so all of these words are mapped
+# to the same index and thus the same set in the cache.
+#
 
 .org    0x80020000  
 .text
@@ -9,19 +24,19 @@ main:
 
 loop2:
 
-  addi $a0, $zero, 2
+  addi $a0, $zero, 2  # Load the first 2 words twice.
   jal loop_twice
   nop
 
 loop4:
 
-  addi $a0, $zero, 4
+  addi $a0, $zero, 4  # Load the first 4 words twice.
   jal loop_twice
   nop
 
 loop8:
 
-  addi $a0, $zero, 8
+  addi $a0, $zero, 8  # Load the first 8 words twice.
   jal loop_twice
   nop
 

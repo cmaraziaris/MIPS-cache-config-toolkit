@@ -4,11 +4,11 @@
 
 main:
 
-  j loop16k
+  j loop16k  # Execute 4K continuous instructions, twice 
 
 end_loop_16k:
 
-  j loop32k
+  j loop32k  # Execute 8K continuous instructions, twice 
 
 end_loop_32k:
 
@@ -16,7 +16,7 @@ end_loop_32k:
   syscall
 
 ################################
-.org    0x80030000  
+.org    0x80030000
 loop16k:
 
   addi $s0, $zero, 2
@@ -28,7 +28,7 @@ loop16:
 
 cont16:
 
-.org    0x80033FF8
+.org    0x80033FF8  # Execute exactly 4K instructions
   addi $s0, $s0, -1
   j loop16
 ##################################
@@ -45,7 +45,7 @@ loop32:
 
 cont32:
 
-.org    0x80047FF8
+.org    0x80047FF8  # Execute exactly 8K instructions
   addi $s0, $s0, -1
   j loop32
 ##################################

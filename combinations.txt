@@ -1,5 +1,5 @@
 ------------------------------------------------------
-Memory:  8
+Memory:  8K
 Associativity:  1  Block size:  32  Num of sets:  64
 Associativity:  1  Block size:  64  Num of sets:  32
 
@@ -18,7 +18,7 @@ Associativity:  8  Block size:  16  Num of sets:  16
 Associativity:  8  Block size:  32  Num of sets:  8
 Associativity:  8  Block size:  64  Num of sets:  4
 ------------------------------------------------------
-Memory:  16
+Memory:  16K
 Associativity:  1  Block size:  64  Num of sets:  64
 
 Associativity:  2  Block size:  32  Num of sets:  64
@@ -33,7 +33,7 @@ Associativity:  8  Block size:  16  Num of sets:  32
 Associativity:  8  Block size:  32  Num of sets:  16
 Associativity:  8  Block size:  64  Num of sets:  8
 ------------------------------------------------------
-Memory:  32
+Memory:  32K
 Associativity:  2  Block size:  64  Num of sets:  64
 
 Associativity:  4  Block size:  32  Num of sets:  64
