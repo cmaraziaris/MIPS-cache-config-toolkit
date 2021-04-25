@@ -2,9 +2,9 @@
 
 ## About
 
-Set of MIPS assembly programs to help us find a secret cache configuration (*cache size*, *block size* and *associativity*).
+Set of MIPS assembly programs to help us find a secret cache configuration (*cache size*, *block size* and *associativity*) in both Data and Program cache.
 
-We used the [QtMips simulator](https://github.com/cvut/QtMips) to simulate the Cache.
+We used the [QtMips simulator](https://github.com/cvut/QtMips) to simulate the cache.
  
 More details of the implemention can be found in **[README.pdf](https://github.com/cmaraziaris/MIPS-cache-config-toolkit/blob/master/README.pdf)** (greek-only currently).
 
