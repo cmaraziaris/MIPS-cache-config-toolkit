@@ -4,4 +4,4 @@ Set of MIPS assembly programs to help us find a secret cache configuration (cach
 
 We used the [QtMips simulator](https://github.com/cvut/QtMips) to simulate the Cache.
  
-More details of the implemention can be found in **README.pdf** (in greek - for now).
+More details of the implemention can be found in **[README.pdf](https://github.com/cmaraziaris/MIPS-cache-config-toolkit/blob/master/README.pdf)** (in greek - for now).
